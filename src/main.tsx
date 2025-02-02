@@ -7,7 +7,12 @@ createRoot(document.getElementById("root")!).render(
   <StrictMode>
     {/* <App /> */}
     <div>
-      <h1>Testing</h1>
+      <h1 style={{ backgroundColor: "#BB0000", color: "#99AABB" }}>Testing</h1>
+      <div
+        style={{ alignContent: "center", textAlign: "center", height: "100vh" }}
+      >
+        <p>Hallo</p>
+      </div>
     </div>
   </StrictMode>
 );
